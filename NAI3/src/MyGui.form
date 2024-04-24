@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MyGui">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="90900" binding="topPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2e380" class="javax.swing.JButton" binding="letsGoButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Lets go!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="44bad" binding="botPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="666cc" class="javax.swing.JLabel" binding="Ages">
+            <constraints/>
+            <properties>
+              <text value="Ages passed:"/>
+            </properties>
+          </component>
+          <component id="ce58b" class="javax.swing.JLabel" binding="agesLabel">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="68cb2" class="javax.swing.JLabel" binding="Training_Acc">
+            <constraints/>
+            <properties>
+              <text value="Training Accurancy:"/>
+            </properties>
+          </component>
+          <component id="495ad" class="javax.swing.JLabel" binding="accLabel">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="57d54" class="javax.swing.JLabel" binding="Detected_lang">
+            <constraints/>
+            <properties>
+              <text value="Detected Language:"/>
+            </properties>
+          </component>
+          <component id="8cfc0" class="javax.swing.JLabel" binding="langLabel">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="4e6c6" class="javax.swing.JTextArea" binding="InsertText">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <text value="Insert Text here."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
